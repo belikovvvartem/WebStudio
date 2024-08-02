@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -22,10 +24,11 @@ header {
 .logo h1 {
     color: rgba(33, 150, 243, 1);
     margin: 0;
+    font-weight: 700;
 }
 
 .logo span {
-    color: #333
+    color: #333;
 }
 
 nav .active {
@@ -35,7 +38,6 @@ nav .active {
 .contact-info .active {
     color: #007bff;
 }
-
 
 nav ul {
     list-style: none;
@@ -51,12 +53,14 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #333;
+    font-weight: 400;
 }
 
 .contact-info a {
     margin-left: 20px;
     text-decoration: none;
     color: #333;
+    font-weight: 400;
 }
 
 .menu nav {
@@ -103,15 +107,10 @@ nav ul li a {
     height: 404px;
 }
 
-
-
 footer {
     background: #333;
     color: #fff;
     padding: 60px 215px;
-
-
-
 }
 
 footer span {
