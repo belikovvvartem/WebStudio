@@ -40,7 +40,7 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ</h1>
-                <button>Замовити послугу</button>
+                <button id="openModalBtn">Замовити послугу</button>
             </div>
         </section>
 
@@ -160,6 +160,53 @@
             </div>
 
     </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            
+            <h2>Залиште свої дані, ми вам передзвонимо</h2>
+
+            <span class="close"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="15" cy="15" r="15" fill="white"/>
+                <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1"/>
+                <path d="M21 10.1079L19.8921 9L15.5 13.3921L11.1079 9L10 10.1079L14.3921 14.5L10 18.8921L11.1079 20L15.5 15.6079L19.8921 20L21 18.8921L16.6079 14.5L21 10.1079Z" fill="black"/>
+                </svg>
+                </span>
+            <form>
+                <div class="form"></div>
+                <div class="form-group">
+                    <label for="name">Ім'я</label><br>
+                    <input type="text" id="name" name="name" placeholder="" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Номер телефону</label>
+                    <input type="tel" id="phone" name="phone" placeholder="" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Електронна пошта</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment">Коментар</label><br>
+                    <input id="comment" name="comment" placeholder="Введіть текст" rows="3"></input>
+                </div>
+
+                <div class="form-submit">
+                    <label>
+                        <input type="checkbox" name="newsletter" required> Погоджуюсь з розсилкою та приймаю <a href="#">Умови договору</a>
+                    </label>
+                </div>
+                <div class="button-submit">
+                <button type="submit" class="submit-btn">Відправити</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
