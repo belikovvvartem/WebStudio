@@ -1,10 +1,12 @@
 var modal = document.getElementById("modal");
-var openModalBtn = document.getElementById("openModalBtn");
 var closeModal = document.getElementsByClassName("close")[0];
+var modalTriggers = document.querySelectorAll(".open-modal");
 
-openModalBtn.onclick = function () {
-  modal.style.display = "flex";
-};
+modalTriggers.forEach(function (trigger) {
+  trigger.onclick = function () {
+    modal.style.display = "flex";
+  };
+});
 
 closeModal.onclick = function () {
   modal.style.display = "none";
