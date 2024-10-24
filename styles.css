@@ -105,6 +105,7 @@ nav ul li a.active::after {
 
 nav a:hover {
     color: rgba(33, 150, 243, 1);
+    
 }
 
 .contact-info a:hover {
