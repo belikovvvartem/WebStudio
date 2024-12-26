@@ -229,9 +229,9 @@ nav .active {
 }
 
 .example-foto:hover {
-
     border: 1px solid #EEE;
     background: #FFF;
+    
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
@@ -259,7 +259,6 @@ nav .active {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* 155.556% */
     letter-spacing: 0.54px;
 }
 
@@ -465,7 +464,6 @@ footer .address {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
-    /* 187.5% */
     letter-spacing: 0.96px;
 }
 
@@ -598,7 +596,6 @@ form {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -626,4 +623,3 @@ form {
     letter-spacing: 0.96px;
 }
 
-/* Модальне вікно */

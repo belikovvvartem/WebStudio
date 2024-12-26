@@ -32,6 +32,19 @@ header {
     margin-left: 215px;
 }
 
+.logo-header:hover {
+    h1 {
+        color: #000;
+        transition: color 0.5s ease;
+    }
+
+    span {
+        color: #2297F3;
+        transition: color 0.5s ease;
+    }
+    
+}
+
 .logo-header h1,
 .logo-footer h1 {
     color: #2196F3;
@@ -201,6 +214,10 @@ nav .active {
     flex-shrink: 0;
 }
 
+.feature img {
+    border-radius: 10px;
+}
+
 .feature:nth-last-of-type(2),
 .feature:nth-last-of-type(3) {
     margin-top: -27px;
@@ -228,7 +245,6 @@ nav .active {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 171.429% */
     letter-spacing: 0.42px;
 }
 
@@ -261,6 +277,11 @@ nav .active {
     height: 294px;
     flex-shrink: 0;
     position: relative;
+    transition: transform 0.3s;
+}
+
+.activity:hover {
+   transform: scale(1.05);
 }
 
 .rectangle-activities {
