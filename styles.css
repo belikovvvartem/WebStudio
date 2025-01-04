@@ -146,6 +146,7 @@ nav .active {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    transition: color 0.5s ease;
 }
 
 .hero {
@@ -382,7 +383,6 @@ nav .active {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: background-image 0.3s ease;
 }
 
 .team-social-symbol {
@@ -392,7 +392,10 @@ nav .active {
     width: 44px;
     height: 44px;
     flex-shrink: 0;
-    background: aq;
+}
+
+.team-social1, .team-social2, .team-social3, .team-social4{
+    transition: background-image 0.5s ease;
 }
 
 .team-social1 {
@@ -426,13 +429,6 @@ nav .active {
 .team-social4:hover {
     background-image: url('./src/img/footer-social/footer-social-blue-4.png');
 }
-
-
-
-
-
-
-
 
 
 .clients {
@@ -604,6 +600,10 @@ footer .address {
     width: 44px;
     height: 44px;
     flex-shrink: 0;
+}
+
+.footer-social-foto1, .footer-social-foto2, .footer-social-foto3, .footer-social-foto4 {
+    transition: background-image 0.5s ease;
 }
 
 
