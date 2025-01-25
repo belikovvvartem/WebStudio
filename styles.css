@@ -35,12 +35,12 @@ header {
 .logo-header:hover {
     h1 {
         color: #000;
-        transition: color 0.5s ease;
+        transition: color 0.5s ease-in-out;
     }
 
     span {
         color: #2297F3;
-        transition: color 0.5s ease;
+        transition: color 0.5s ease-in-out;
     }
     
 }
@@ -871,3 +871,16 @@ form {
 }
 
 /* Модальне вікно */
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 100px;
+}
